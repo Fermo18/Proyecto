@@ -26,28 +26,28 @@ Syncing the consensus client is instantaneous with checkpoint sync but the execu
 
 
 
-**How do I know I'm fully synced?**
+**¿Cómo sé que estoy completamente sincronizado?**
 
-* Check your execution client's logs and compare the block number against the most recent block on [https://holesky.etherscan.io](https://holesky.etherscan.io/)
-  * Check EL logs: `journalctl -fu execution`
-* Thanks to checkpoint sync, your consensus client's is instantly synched. You can compare the slot number against the most recent slot on [https://holesky.beaconcha.in](https://holesky.beaconcha.in/)
-  * Check CL logs: `journalctl -fu consensus`
+* Compruebe los registros de su cliente de ejecución y compare el número de bloque con el bloque más reciente en [https://holesky.etherscan.io](https://holesky.etherscan.io/)
+  * Compruebe los registros EL: `journalctl -fu execution`
+* Gracias a la sincronización de puntos de control, el de su cliente de consenso se sincroniza al instante. Puede comparar el número de tragamonedas con la tragamonedas más reciente en [https://holesky.beaconcha.in](https://holesky.beaconcha.in/)
+  * Compruebe los registros de CL: `journalctl -fu consensus`
 
 
 
 </details>
 
-### :thumbsup: Recommended Steps
+### :pulgar arriba: Pasos recomendados
 
 {% hint style="info" %}
-:pill:**Install** [**EthPillar**](../../ethpillar.md): a simple companion UI for node management! Command line use is greatly reduced. Update your software with a keystroke.
+:píldora:**Instalar** [**EthPillar**](../../ethpillar.md):¡Una sencilla interfaz de usuario complementaria para la gestión de nodos! El uso de la línea de comandos se reduce considerablemente. Actualice su software con una pulsación de tecla.
 
 ![](../../../../.gitbook/assets/ethpillar.png)
-{% endhint %}
+{% insinuación final %}
 
-* :newspaper2:**Subscribe to your Execution Client and Consensus Client's Github repository**: Be notified of new releases. Find the Github links on each EL/CL's Overview section. At your EL or CL's github page while logged in, click the **Watch** button > **Custom** > click the checkbox for "**Release**".
-* :smile:**Join Community**: Join the [community on Discord and Reddit](../../guide-or-how-to-setup-a-validator-on-eth2-mainnet/joining-the-community-on-discord-and-reddit.md#discord) to discuss all things staking related.
-* :tools:**Node** **Maintenance**: Familiarize yourself with [Part II - Maintenance](../../guide-or-how-to-setup-a-validator-on-eth2-mainnet/part-ii-maintenance/) section, as you'll need to keep your staking node running at its best.
+* :newspaper2:**Suscríbete al repositorio de Github de tu cliente de Ejecución y cliente de Consenso**: Recibe notificaciones de nuevas versiones. Encuentre los enlaces de Github en cada sección de descripción general EL/CL's. En la página de Github de su EL o CL mientras está conectado,hada clic en el botón **Watch** button > **Custom** > click the checkbox for "**Release**".
+* :sonreír:**Únete a la comunidad**:  [Únete a la comunidad en Discord y Reddit](../../guide-or-how-to-setup-a-validator-on-eth2-mainnet/joining-the-community-on-discord-and-reddit.md#discord) para discutir todo lo relacionado con el staking.
+* :tools:*Mantenimiento** **Nodos**: Familiarize yourself with [Part II - Maintenance](../../guide-or-how-to-setup-a-validator-on-eth2-mainnet/part-ii-maintenance/) section, as you'll need to keep your staking node running at its best.
 * :books:**Study** [**EthStaker Knowledge Base**](https://docs.ethstaker.cc/ethstaker-knowledge-base/): Increase your staking understanding
 * :cd:**Backups**: Review your staking validator backups!
 * :fingers\_crossed:**Finished testing?** Before decommissioning your validator, it's good practice to properly [exit your validator](../../guide-or-how-to-setup-a-validator-on-eth2-mainnet/part-iii-tips/voluntary-exiting-a-validator.md) as this improves staking network health.
